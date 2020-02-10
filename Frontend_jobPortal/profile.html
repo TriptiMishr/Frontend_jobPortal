@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Candidate Profile</title>
+<link rel="stylesheet" type="text/css" href="css/index.css">
+<link rel="stylesheet" type="text/css" href="css/profile.css">
+</head>
+<body>
+  <nav>
+      <ul>
+        <li class="logo"><img src="img/joblogo.png" id="icon" alt="logo" style="width: 5%; margin-top: 12px; margin-left: 6px;"></li>
+  
+       
+        <li><a href="login.html">Signout</a></li>
+        <li><a href="profile.html"> Profile </a></li>
+       <li><a href="#">Messages</a></li>
+       <li><a href="#">UploadCV</a></li>
+       <li><input type="text" id="myInput" placeholder="Search" style="padding-left: 10px;margin-left: 30%;background-position: 10px 12px;width: 10%; margin-bottom: 12px;border: 1px solid #ddd;padding: 12px 12px 8px 12px; "></li>
+
+    </ul>
+  </nav>
+
+
+
+<div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Australia</option>
+      <option value="canada">Canada</option>
+      <option value="usa">USA</option>
+      <option value="india">India</option>
+    </select>
+
+    <label for="address">Address</label>
+    <textarea id="address" name="address" placeholder="Flatno/Building/Stree/City/State-Pin code." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+
+  </form>
+</div>
+
+
+  <div class="footer">
+  <ul><li><p>Career</p></li>
+    <li><p>About us</p></li>
+    <li><p>Customer Feedback</p></li>
+    <li><p>Customer Complaints</p></li></ul>
+</div>
+
+
+</body>
+</html>
